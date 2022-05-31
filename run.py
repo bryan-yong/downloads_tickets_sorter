@@ -10,6 +10,7 @@ def main():
     if 'Request' in file:
       move(file)
       print(file + ' was moved.\n----------------------------')
+    else: continue
 
 # gets creation date/time of file and converts it from Unix time to date time
 def get_create_date(file):
